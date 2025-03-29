@@ -143,18 +143,25 @@ elif page == "Find Your Movie":
     max_rating = st.sidebar.slider("Maximum Rating", 0.0, 10.0, 10.0, 0.1)
     min_votes = st.sidebar.slider("Minimum Votes", 0, int(movies_df["Voting"].max()), 1000, 100)
     movie_search = st.sidebar.text_input("Search Movie Name")
-    
+    duration_filter = st.sidebar.radio("⏳ Select Duration:", ["All", "< 2 hrs", "2-3 hrs", "> 3 hrs"])
     filtered_df = movies_df[
         (movies_df["Rating"] >= min_rating) &
         (movies_df["Rating"] <= max_rating) &
         (movies_df["Voting"] >= min_votes)
     ]
+    if duration_filter == "< 2 hrs":
+        filtered_df = filtered_df[filtered_df["Duration"] < 120]
+    elif duration_filter == "2-3 hrs":
+        filtered_df = filtered_df[(filtered_df["Duration"] >= 120) & (filtered_df["Duration"] <= 180)]
+    elif duration_filter == "> 3 hrs":
+        filtered_df = filtered_df[filtered_df["Duration"] > 180]
     if selected_genre:
         filtered_df = filtered_df[filtered_df["Genre"].isin(selected_genre)]
     if movie_search:
         filtered_df = filtered_df[filtered_df["Title"].str.contains(movie_search, case=False, na=False)]
     
         st.dataframe(filtered_df.reset_index(drop=True))
+        
     if not filtered_df.empty:
         # Top 10 Movies by Rating & Votes
         st.subheader("📊 Top 10 Movies by Rating & Votes")
