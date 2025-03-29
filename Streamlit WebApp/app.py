@@ -54,7 +54,7 @@ def fetch_data():
 movies_df = fetch_data()
 
 # Sidebar Navigation
-st.sidebar.title("Navigation")
+st.sidebar.title("MovieZone")
 page = st.sidebar.radio("Go to", ["Movie Trends & Analysis - 2024", "Find Your Movie"])
 
 if page == "Movie Trends & Analysis - 2024":
@@ -161,7 +161,7 @@ elif page == "Find Your Movie":
         filtered_df = filtered_df[filtered_df["Title"].str.contains(movie_search, case=False, na=False)]
     
         st.dataframe(filtered_df.reset_index(drop=True))
-        
+
     if not filtered_df.empty:
         # Top 10 Movies by Rating & Votes
         st.subheader("📊 Top 10 Movies by Rating & Votes")
