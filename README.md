@@ -58,9 +58,9 @@ pip install pandas streamlit selinium numpy mysql-connector-python
 ```
 
 ### 3️⃣ Set Up TiDB Cloud Database
-  1.Create a TiDB Cloud account
-  2.Load the cleaned IMDb data into the database
-  3.Update database_config.py with your connection details
+  ##### 1.Create a TiDB Cloud account
+  ##### 2.Load the cleaned IMDb data into the database
+  ##### 3.Update database_config.py with your connection details
 
 ### 4️⃣ Run the Streamlit Application
 ```bash
