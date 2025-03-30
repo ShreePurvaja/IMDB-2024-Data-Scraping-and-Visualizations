@@ -58,9 +58,9 @@ pip install pandas streamlit selinium numpy mysql-connector-python
 ```
 
 ### 3️⃣ Set Up TiDB Cloud Database
-  ##### 1.Create a TiDB Cloud account
-  ##### 2.Load the cleaned IMDb data into the database
-  ##### 3.Update database_config.py with your connection details
+  #### 1.Create a TiDB Cloud account
+  #### 2.Load the cleaned IMDb data into the database
+  #### 3.Update database_config.py with your connection details
 
 ### 4️⃣ Run the Streamlit Application
 ```bash
@@ -106,10 +106,10 @@ streamlit run app.py
 
 ## 🤝 Contribution
 We welcome contributions! Follow these steps:
-1️⃣ Fork the repository
-2️⃣ Create a new branch (feature-new-chart)
-3️⃣ Commit changes and push to GitHub
-4️⃣ Open a pull request
+#### 1️⃣ Fork the repository
+#### 2️⃣ Create a new branch (feature-new-chart)
+#### 3️⃣ Commit changes and push to GitHub
+#### 4️⃣ Open a pull request
 
 ## 🔗 Additional Resources  
 - 📚 **[Streamlit Documentation](https://docs.streamlit.io/library/api-reference)**  
