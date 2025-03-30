@@ -124,8 +124,8 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Author
 Shree Purvaja D – ✉️ [shreepurvaja@gmail.com]
 
-### ▶️Check out the demo of this project
-🔗 **[LinkedIn](https://www.linkedin.com/posts/shree-purvaja-d_guvi-datascience-webscraping-activity-7311851269587877889-qBn5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD6NFTQBzSiBdliy2LKPcwqvdB5nsrx5EKE)**  
+### 📽️ Check out the project demo below! 👇
+🔗 **[LinkedIn - www.linkedin.com/in/shree-purvaja-d](https://www.linkedin.com/posts/shree-purvaja-d_guvi-datascience-webscraping-activity-7311851269587877889-qBn5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD6NFTQBzSiBdliy2LKPcwqvdB5nsrx5EKE)**  
 
 🚀 If you find this project helpful, give it a ⭐ on GitHub!
 
