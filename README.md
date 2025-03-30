@@ -1,4 +1,52 @@
+# 🎥 IMDb 2024 Data Scraping & Visualization 🎬 
 # 🎥 IMDb 2024 Data Scraping & Visualization 🎬  
+
+## 🌟 Overview  
+This project focuses on **extracting, analyzing, and visualizing** movie data from IMDb for the year **2024**.  
+Using **Selenium**, we scrape movie details such as **Title, Genre, Duration, Rating, and Voting**.  
+The dataset is **cleaned with Pandas, stored in TiDB Cloud (SQL)**, and analyzed using an **interactive Streamlit dashboard** with **dynamic filters and visualizations**.  
+
+## 🛠️ Tech Stack  
+- **🐍 Programming Language**: Python  
+- **🌐 Web Scraping**: Selenium  
+- **📊 Data Processing**: Pandas  
+- **🗄️ Database**: TiDB Cloud (SQL-based)  
+- **📉 Visualization**: Plotly, Seaborn, Matplotlib  
+- **💻 Web Application**: Streamlit  
+
+## 🎯 Business Use Cases  
+✅ **Top 10 Movies**: Identify highest-rated & most-voted movies.  
+✅ **Genre Distribution**: Analyze movie counts per genre.  
+✅ **Average Duration by Genre**: Find movie length variations by genre.  
+✅ **Voting Trends**: Discover genres with the most votes.  
+✅ **Popular Genres**: Identify IMDb's **most dominant genres** in 2024.  
+✅ **Rating Distribution**: Understand how ratings vary across movies.  
+✅ **Genre-Based Rating Leaders**: Find **top-rated** movies per genre.  
+✅ **Duration Extremes**: Identify the **shortest & longest** movies.  
+✅ **Ratings by Genre**: Compare **average ratings** for each genre.  
+✅ **Correlation Analysis**: Explore relationships between **ratings & voting counts**.  
+
+## 🚀 Features  
+✔ **🔍 Dynamic Filtering**: Filter movies by ratings, duration, votes & genre.  
+✔ **📊 Interactive Visualizations**:  
+   - 🔝 **Top 10 Movies** by Rating & Voting  
+   - 🎭 **Genre Distribution** (Bar Chart)  
+   - ⏳ **Average Duration by Genre** (Horizontal Bar Chart)  
+   - 🗳️ **Voting Trends by Genre** (Bar Chart)  
+   - ⭐ **Rating Distribution** (Histogram/Boxplot)  
+   - 🍿 **Most Popular Genres by Voting** (Pie Chart)  
+   - 📈 **Correlation between Ratings & Voting** (Scatter Plot)  
+   - 🏆 **Genre-Based Rating Leaders** (Table)  
+   - 🎬 **Duration Extremes** (Table/Card)  
+   - 🔥 **Heatmap for Ratings by Genre**  
+
+## ⚙️ Installation  
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/imdb-2024-analysis.git
+cd imdb-2024-analysis
+```
+
 ### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
