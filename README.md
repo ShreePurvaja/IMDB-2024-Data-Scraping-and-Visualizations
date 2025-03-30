@@ -50,8 +50,8 @@ cd imdb-2024-analysis
 ### 2️⃣ Install Dependencies
 Ensure the following dependencies are installed:
 
-Python 3.12+
-pip (Python package manager)
+#### -Python 3.12+
+#### -pip (Python package manager)
 
 ```bash
 pip install pandas streamlit selinium numpy mysql-connector-python
