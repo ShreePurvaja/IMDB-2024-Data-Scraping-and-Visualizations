@@ -8,9 +8,9 @@ The dataset is **cleaned with Pandas, stored in TiDB Cloud (SQL)**, and analyzed
 ## 🛠️ Tech Stack  
 - **🐍 Programming Language**: Python  
 - **🌐 Web Scraping**: Selenium  
-- **📊 Data Processing**: Pandas  
+- **📊 Data Processing**: Pandas,numpy  
 - **🗄️ Database**: TiDB Cloud (SQL-based)  
-- **📉 Visualization**: Plotly, Seaborn, Matplotlib  
+- **📉 Visualization**: Plotly 
 - **💻 Web Application**: Streamlit  
 
 ## 🎯 Business Use Cases  
@@ -26,7 +26,8 @@ The dataset is **cleaned with Pandas, stored in TiDB Cloud (SQL)**, and analyzed
 ✅ **Correlation Analysis**: Explore relationships between **ratings & voting counts**.  
 
 ## 🚀 Features  
-✔ **🔍 Dynamic Filtering**: Filter movies by ratings, duration, votes & genre.  
+✔ **🔍 Dynamic Filtering**: Filter movies by ratings, duration, votes & genre.
+
 ✔ **📊 Interactive Visualizations**:  
    - 🔝 **Top 10 Movies** by Rating & Voting  
    - 🎭 **Genre Distribution** (Bar Chart)  
@@ -47,8 +48,13 @@ cd imdb-2024-analysis
 ```
 
 ### 2️⃣ Install Dependencies
+Ensure the following dependencies are installed:
+
+Python 3.12+
+pip (Python package manager)
+
 ```bash
-pip install -r requirements.txt
+pip install pandas streamlit selinium numpy mysql-connector-python
 ```
 
 ### 3️⃣ Set Up TiDB Cloud Database
@@ -60,6 +66,10 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+## 📶Access the dashboard:
+### Local URL: http://localhost:8501
+### Network URL: http://192.168.29.6:8501
+### Note: It might take a few seconds to wake this app up
 
 ## 📂 File Structure
 ```bash
