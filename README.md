@@ -1,5 +1,4 @@
 # 🎥 IMDb 2024 Data Scraping & Visualization 🎬 
-# 🎥 IMDb 2024 Data Scraping & Visualization 🎬  
 
 ## 🌟 Overview  
 This project focuses on **extracting, analyzing, and visualizing** movie data from IMDb for the year **2024**.  
